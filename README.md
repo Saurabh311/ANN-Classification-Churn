@@ -1,54 +1,25 @@
-# Customer Churn Prediction using Artificial Neural Networks (ANN)
+# 🏦 Customer Churn Prediction using ANN
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ann-classification-churn-h3fsvuqsdwcsysn6tfvhyi.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-green)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.12%2B-red)
+![Accuracy](https://img.shields.io/badge/Accuracy-86%25-brightgreen)
 
-A deep learning solution for predicting customer churn using Artificial Neural Networks, deployed as an interactive web application.
+**Live Demo:** [Try the Churn Predictor](https://ann-classification-churn-h3fsvuqsdwcsysn6tfvhyi.streamlit.app/)
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Key Features](#key-features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Architecture](#model-architecture)
-- [Results](#results)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+A production-ready deep learning solution for predicting banking customer churn, featuring:
+- Artificial Neural Network (ANN) with dropout regularization
+- Interactive web interface with real-time predictions
+- Comprehensive model evaluation metrics
 
-## Project Overview
-This project predicts customer churn probability for a banking/financial services scenario using:
-- Artificial Neural Network (ANN) with 3 hidden layers
-- Feature engineering including scaling and categorical encoding
-- Interactive prediction interface via Streamlit
+## 🚀 Quick Start
 
-## Key Features
-✔ Preprocessing pipeline handling numerical and categorical features  
-✔ ANN model with dropout layers for regularization  
-✔ Hyperparameter tuning with Keras Tuner  
-✔ Model evaluation metrics (Accuracy, Precision, Recall, AUC-ROC)  
-✔ Interactive web interface for real-time predictions  
+### Option 1: Use the Live App
+Simply visit the [deployed application](https://ann-classification-churn-h3fsvuqsdwcsysn6tfvhyi.streamlit.app/) and input customer data.
 
-## Tech Stack
-**Core ML:**
-- TensorFlow/Keras
-- scikit-learn
-- Pandas/Numpy
-
-**Deployment:**
-- Streamlit (frontend)
-- Pickle (model serialization)
-
-**Development:**
-- Jupyter Notebook (EDA + prototyping)
-- Visual Studio Code
-
-## Installation
-1. Clone the repository:
+### Option 2: Local Installation
 ```bash
 git clone https://github.com/Saurabh311/ANN-Classification-Churn.git
 cd ANN-Classification-Churn
-
+pip install -r requirements.txt
+streamlit run app.py
