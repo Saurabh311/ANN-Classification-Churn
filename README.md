@@ -25,7 +25,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-### 🧠 Model Architecture
+## 🧠 Model Architecture
 Model: "sequential"
 ┌─────────────────────────────────┐
 │ Layer (type)       Output Shape │
@@ -37,7 +37,7 @@ Model: "sequential"
 └─────────────────────────────────┘
 Total params: 577 | Trainable params: 577
 
-### 📊 Performance Metrics
+📊 Performance Metrics
 Metric	Training	Validation
 Accuracy	86.2%	85.7%
 Precision	0.81	0.80
