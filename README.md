@@ -23,3 +23,36 @@ git clone https://github.com/Saurabh311/ANN-Classification-Churn.git
 cd ANN-Classification-Churn
 pip install -r requirements.txt
 streamlit run app.py
+
+
+🧠 Model Architecture
+Model: "sequential"
+┌─────────────────────────────────┐
+│ Layer (type)       Output Shape │
+├─────────────────────────────────┤
+│ dense (Dense)      (None, 16)   │
+│ dropout (Dropout)  (None, 16)   │
+│ dense_1 (Dense)    (None, 16)   │
+│ dense_2 (Dense)    (None, 1)    │
+└─────────────────────────────────┘
+Total params: 577 | Trainable params: 577
+
+📊 Performance Metrics
+Metric	Training	Validation
+Accuracy	86.2%	85.7%
+Precision	0.81	0.80
+Recall	0.72	0.71
+AUC-ROC	0.89	0.88
+💡 Key Features
+Dynamic Input Handling: Processes both numerical and categorical features
+
+Risk Visualization: Displays churn probability with interpretable metrics
+
+Responsive Design: Works on desktop and mobile devices
+
+🛠️ Tech Stack
+Category	Technologies
+Core ML	TensorFlow, Keras, scikit-learn
+Frontend	Streamlit
+Processing	Pandas, NumPy
+Deployment	Streamlit Cloud
