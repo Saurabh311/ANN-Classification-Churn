@@ -25,7 +25,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-## 🧠 Model Architecture
+🧠 Model Architecture
 Model: "sequential"
 ┌─────────────────────────────────┐
 │ Layer (type)       Output Shape │
@@ -50,7 +50,8 @@ Risk Visualization: Displays churn probability with interpretable metrics
 
 Responsive Design: Works on desktop and mobile devices
 
-### 🛠️ Tech Stack
+
+🛠️ Tech Stack
 Category	Technologies
 Core ML	TensorFlow, Keras, scikit-learn
 Frontend	Streamlit
